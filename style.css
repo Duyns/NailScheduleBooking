@@ -1,0 +1,82 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  background: url("/NailScheduleBooking/images/bg.jpg") no-repeat top/cover;
+  font-family: Arial, sans-serif;
+
+  --header-height: 70px;
+}
+
+/* common */
+.main-content {
+  width: 1200px;
+  margin: 0 auto;
+  max-width: calc(100% - 100px);
+}
+a {
+  text-decoration: none;
+}
+
+/* header */
+.header {
+  background-color: #8383836a;
+  height: var(--header-height);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+.header .body {
+  display: flex;
+}
+.logo {
+  width: calc(var(--header-height) * 1.5);
+  margin-top: calc(var(--header-height) * (-0.15));
+  margin-left: 5%;
+}
+.nav {
+  margin-left: auto;
+  width: 60%;
+}
+.nav ul {
+  display: flex;
+  height: var(--header-height);
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.8rem;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.nav a {
+  color: #ffffff;
+  padding: 20px 20px;
+  position: relative;
+}
+.nav a:hover,
+.nav li.active a {
+  color: #d0f37e;
+  text-shadow: 0.5px 0 0 currentColor, 0 0.5px 0 currentColor,
+    -0.5px 0 0 currentColor, 0 -0.5px 0 currentColor;
+}
+.nav li.active a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 23px;
+  bottom: 10px;
+  width: 80px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #000000;
+}
+h1 {
+  color: #d0f37e;
+  text-align: center;
+  font-size: 4rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-top: calc(var(--header-height) + 20px);
+}
