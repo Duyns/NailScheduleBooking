@@ -16,7 +16,7 @@ body {
   --header-height: 70px;
 }
 
-/* common */
+/* ======================= common ======================= */
 .main-content {
   width: 1200px;
   margin: 0 auto;
@@ -26,7 +26,7 @@ a {
   text-decoration: none;
 }
 
-/* header */
+/* ======================= header ======================= */
 .header {
   background-color: #8383836a;
   height: var(--header-height);
@@ -82,8 +82,8 @@ a {
   background-color: #000000;
 }
 
-/* main */
-/* -- hero */
+/* ======================= main ======================= */
+/* ======================= hero ======================= */
 .hero {
   aspect-ratio: 16 / 9;
   width: 100%;
@@ -103,7 +103,7 @@ h1 {
   top: 60%;
 }
 
-/* --about */
+/* ======================= about ======================= */
 .about h2 {
   text-align: center;
   font-size: 3rem;
@@ -134,7 +134,8 @@ h1 {
 #about {
   scroll-margin-top: 45vh;
 }
-/* --reference home */
+
+/* ======================= reference home ======================= */
 .reference h2 {
   text-align: center;
   font-size: 3rem;
@@ -176,8 +177,8 @@ h1 {
   bottom: 3%;
 }
 
-/* reference detail */
-/* reference detail header */
+/* ======================= reference detail ======================= */
+/* ======================= reference detail header ======================= */
 .reference-header ul {
   display: flex;
   justify-content: center;
@@ -195,7 +196,7 @@ h1 {
   background-color: #808080;
 }
 
-/* reference detail content */
+/* ======================= reference detail content ======================= */
 .reference-detail h2 {
   text-align: center;
   font-size: 2.5rem;
@@ -215,3 +216,9 @@ h1 {
   border-radius: 10%;
   margin: 0 20px;
 }
+
+/* ======================= prices ======================= */
+.prices {
+}
+
+/* ======================= feedbacks ======================= */
